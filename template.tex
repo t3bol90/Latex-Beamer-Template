@@ -1,0 +1,106 @@
+
+\begin{frame}
+    \frametitle{Sample frame title}
+    This is some text in the first frame. This is some text in the first frame. This is some text in the first frame.
+\end{frame}
+
+
+%* Ví dụ về chèn các block với các ý nghĩa khác nhau. Dùng thống nhất theo ý nghĩa này luôn để khỏi phải chỉnh sửa mệt.
+\begin{frame}
+    \frametitle{Sample frame title}
+
+    In this slide, some important text will be
+    \alert{highlighted} because it's important.
+    Please, don't abuse it.
+
+    \begin{block}{Remark}
+        Sample text
+    \end{block}
+
+    \begin{alertblock}{Important theorem}
+        Sample text in red box
+    \end{alertblock}
+
+    \begin{examples}
+        Sample text in green box. The title of the block is ``Examples".
+    \end{examples}
+
+
+\end{frame}
+
+%* Ví dụ cần thuyết trình item mà 2 dòng hiển thị trước - sau
+\begin{frame}
+    In this slide \pause
+
+    the text will be partially visible \pause
+
+    And finally everything will be there
+\end{frame}
+
+%* Như trên nhưng ảo ma và phức tạp hơn
+\begin{frame}
+    \frametitle{Sample frame title}
+    This is a text in second frame.
+    For the sake of showing an example.
+
+    \begin{itemize}
+        \item<1-> Text visible on slide 1
+        \item<2-> Text visible on slide 2
+        \item<3> Text visible on slide 3
+        \item<4-> Text visible on slide 4
+    \end{itemize}
+\end{frame}
+
+%* Ví dụ về multiple pause
+\begin{frame}{Structure Slides}
+    \framesubtitle{After you have a content of the presentation}
+    % \begin{block}{Overall Architecture}
+    \begin{enumerate}
+        \item Select a color schemes and typeface (*) \pause
+        \item Build/use a template layout \pause
+        \item Fill up slide by content \pause
+        \item Add animation \pause
+        \item Add references (*)
+    \end{enumerate}
+    % \end{block}
+    %   \begin{figure}[h]
+    %       \centering
+    %       \includegraphics[width = \linewidth]{imgs/TTproposal.png}
+    %       \caption{Overall Architecture}
+    %       \label{fig:overall}
+    %   \end{figure}
+
+\end{frame}
+
+%* Ví dụ chèn frame ở 2 cột (slide 2 bên, 1 bên chữ 1 bên công thức/hình chẳng hạn)
+
+\begin{frame}
+    \frametitle{Two-column slide}
+    \begin{columns}
+        \column{0.5\textwidth}
+        This is a text in first column.
+        $$E=mc^2$$
+        \begin{itemize}
+            \item First item
+            \item Second item
+        \end{itemize}
+
+        \column{0.5\textwidth}
+        This text will be in the second column
+        and on a second thoughts, this is a nice looking
+        layout in some cases.
+    \end{columns}
+\end{frame}
+
+%* Ví dụ về chèn hình
+\begin{frame}{Structure Slides}
+    \framesubtitle{Select a color schemes}
+    \begin{figure}[h]
+        \centering
+        %! Chèn hình phức tạp thì sửa cả width lẫn height thể fit
+        \includegraphics[width = \linewidth]{imgs/fit_logo.png}
+        \caption{Color and text contrast combination \footnote{http://www.colorsontheweb.com/color-theory}}
+        \label{fig:overall}
+    \end{figure}
+
+\end{frame}

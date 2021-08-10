@@ -1,0 +1,85 @@
+\documentclass{beamer}
+\usepackage[utf8]{vietnam}
+\usetheme{Madrid}
+
+
+% Nếu không cần hyperlink, cái màu đỏ đỏ sáng sáng.
+% \hypersetup{
+%     colorlinks=true,
+% }
+
+
+\usepackage{biblatex}
+\bibliography{bibliography.bib}
+
+
+%Information to be included in the title page:
+
+
+\date{2021}
+\title[Intro2DS] %optional
+{Name of the project}
+
+\subtitle{Subtitle of that project}
+
+\author[Đình Toàn, Minh Đức] % (optional, for multiple authors)
+{Đoàn Đình Toàn\inst{1} \and Kiều Vũ Minh Đức\inst{1}}
+
+\institute[FIT-HCMUS] % (optional)
+{
+    \inst{1}%
+    Faculty of Information Technology\\
+    University Of Science
+
+    %   \and
+    %   \inst{2}%
+    %   Faculty of Chemistry\\
+    %   Very Famous University
+}
+
+\date[\today] % (optional)
+{Final project presentation, April 2021}
+
+%* Logo trường
+% \logo{\includegraphics[height=1cm]{imgs/fit_logo.png}}
+%* Ví dụ về chèn frame
+\begin{document}
+\frame{\titlepage}
+
+%! Đây là một đống template, remove khi xong, đừng chèn code vào đây
+\include{template.tex}
+
+%* QnA slide
+\begin{frame}
+    \huge{\centerline{Question and Answer}}
+\end{frame}
+
+%* Thanks slide
+\begin{frame}
+    \huge{\centerline{Thanks}}
+\end{frame}
+
+\begin{frame}{Reference}
+
+    %! Tự cite để nó hiện!
+    \cite{pham_2021}
+    \printbibliography
+    % \begin{thebibliography}{9}
+    %     \bibitem{mtcnn}
+    %     Kaipeng, Zhang, et al.
+    %     \textit{Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks}.
+    %     Computer Vision and Pattern Recognition (CVPR), 2016, arXiv:1604.02878
+
+    %     \bibitem{implementation}
+    %     ipacz,
+    %     \textit{MTCNN implementation}
+    %     \\\texttt{https://github.com/ipazc/mtcnn}
+
+    %     \bibitem{wiki}
+    %     Pyramid (image processing)
+    %     \\\texttt{https://en.wikipedia.org/wiki/Pyramid\_(image\_processing)}
+    % \end{thebibliography}
+
+\end{frame}
+
+\end{document}
