@@ -8,8 +8,8 @@ Beamer is a powerful and flexible LaTeX class to create great looking presentati
 ### Dependencies
 There are two options:
 
--   Using online with cooperative partner with OverLeaf.
--   Using it local with TexLive and Latex Workshop (on `vscode`)
+-   Using online with cooperative partners with OverLeaf.
+-   Using it locally with TexLive and Latex Workshop (on `vscode`)
 
 ### Installing
 
