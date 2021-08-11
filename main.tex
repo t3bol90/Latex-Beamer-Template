@@ -12,6 +12,7 @@
 \usepackage{biblatex}
 \bibliography{bibliography.bib}
 
+\usepackage{subfiles} % Best loaded last in the preamble
 
 %Information to be included in the title page:
 
@@ -47,7 +48,8 @@
 \frame{\titlepage}
 
 %! Đây là một đống template, remove khi xong, đừng chèn code vào đây
-\include{template.tex}
+% \include{template.tex}
+\subfile{template.tex}
 
 %* QnA slide
 \begin{frame}
