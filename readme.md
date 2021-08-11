@@ -6,7 +6,7 @@ Beamer is a powerful and flexible LaTeX class to create great looking presentati
 ## Getting Started
 
 ### Dependencies
-There are two option:
+There are two options:
 
 -   Using online with cooperative partner with OverLeaf.
 -   Using it local with TexLive and Latex Workshop (on `vscode`)
