@@ -17,11 +17,11 @@ Follow this tutorial: [@rcpassos](https://medium.com/@rcpassos/writing-latex-doc
 
 ### Usage
 * Check out [template.tex](./template.tex) for block template (uncomment it in release slide).
-* Cite your own references by `bibitex` in [bibiliography.bib](./bibliography.bib)
+* Cite your own references by `bibtex` in [bibiliography.bib](./bibliography.bib)
   * Bibtex generator: [truben](https://truben.no/latex/bibtex/#), [citationmachine](https://www.citationmachine.net/bibtex/cite-a-website)
  
 * Include images in `imgs` folder and use template block to insert it to your slide.
-* For more personal propose, check out awesome beamber to learn more about beamber trick [awesome-beaber](https://github.com/xinychen/awesome-beamer)
+* For more personal propose, check out awesome Beamer to learn more about Beamer trick [awesome-beaber](https://github.com/xinychen/awesome-beamer)
 
 
 
